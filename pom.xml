@@ -20,11 +20,13 @@
 	</properties>
 
 	<dependencies>
+		<!-- web启动器 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- 测试 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -39,6 +41,7 @@
 		</dependency>
 
 
+		<!-- 阿里支付 -->
 		<!--<dependency>-->
 			<!--<groupId>com.alipay.sdk</groupId>-->
 			<!--<artifactId>alipay-sdk-java</artifactId>-->
