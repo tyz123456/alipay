@@ -14,6 +14,8 @@ import tk.mybatis.spring.annotation.MapperScan;
 public class P2pPaymentApplication {
 
 	public static void main(String[] args) {
+
+		System.out.println("提交dev");
 		SpringApplication.run(P2pPaymentApplication.class, args);
 	}
 
